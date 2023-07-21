@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Xiaorui Shen | Tiny URL</title>
+  <meta name="description" content="Xiaorui Shen">
+  <meta name="author" content="Xiaorui Shen">
+  <meta property="og:title" content="Xiaorui Shen" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://www.martinsaveski.com" />
+  <meta property="og:site_name" content="Xiaorui Shen" />
+  <link rel="canonical" href="http://www.martinsaveski.com" />
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href=/~xiaoruishen/libs/external/skeleton/normalize.css>
+  <link rel="stylesheet" href=/~xiaoruishen/libs/external/skeleton/skeleton.css>
+  <link rel="stylesheet" href=/~xiaoruishen/libs/custom/my_css.css>
+
+  <!-- JQuery
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src=/~xiaoruishen/libs/external/jquery-3.1.1.min.js></script>
+
+  <!-- Font-Awesome
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href=/~xiaoruishen/libs/external/font-awesome-4.7.0/css/font-awesome.min.css>
+
+  <!-- Academicons
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href=/~xiaoruishen/libs/external/academicons-1.8.6/css/academicons.min.css>
+
+  <!-- Skeleton tabs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href=/~xiaoruishen/libs/external/skeleton_tabs/skeleton-tabs.css>
+  <script src=/~xiaoruishen/libs/external/skeleton_tabs/skeleton-tabs.js></script>
+
+  <!-- Timeline
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href=/~xiaoruishen/libs/external/timeline.css>
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!--<link rel="stylesheet" href=/~xiaoruishen/libs/external/github-prettify-theme.css>-->
+  <script src=/~xiaoruishen/libs/custom/my_js.js></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href=/~xiaoruishen/libs/icon.png>
+  <link rel="shortcut icon" type="image/png" href=/~xiaoruishen/libs/icon.png>
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+
+    <section class="header">
+      <div class="row">
+        <div class="three columns">
+          <a href="/~xiaoruishen/"><img class="u-max-full-width" src='/~xiaoruishen/assets/profile-pics/PIC.jpg'></a>
+        </div>
+        <div class="nine columns main-description">
+            <h1>Xiaorui Shen</h1>
+            <p>👨🏻‍💻 CS Master, graduating in Dec 2023 <br>🔍 Actively seeking entry-level SDE positions in the US </p>
+            <p>📧 oliver.app@yahoo.com</p>
+            <p>
+              <span onclick="window.open('https://www.linkedin.com/in/xiaorui-shen/')" style="cursor: pointer">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+              </span>
+
+              <span onclick="window.open('https://github.com/oliverXS')" style="cursor: pointer">
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </span>
+            </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href=/~xiaoruishen/index.html#bio>Bio</a></li>
+          <li class="navbar-item"><a class="navbar-link" href=/~xiaoruishen/index.html#projects>Projects</a></li>
+          <li class="navbar-item"><a class="navbar-link" href=/~xiaoruishen/index.html#resume>Vita</a></li>
+          <li class="navbar-item"><a class="navbar-link" href=/~xiaoruishen/index.html#publications>Publications</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="docs-section">
+
+  
+    <div class="title-subtitle">
+      <h3>Tiny URL</h3>
+      <h5>Java Redis MongoDB</h5>
+    </div>
+  
+
+  <p>In version 2 of the project, significant improvements have been made by introducing the Snowflake algorithm to generate unique 64-bit IDs for short URLs. To enhance readability and compatibility, the project has transitioned from base-64 to base-58 encoding, excluding certain characters that may cause confusion. This results in a more efficient and user-friendly URL shortening system.</p>
+
+<p>Pros of version 2 include its simplicity, lightweight design, and integration with Redis for efficient storage and retrieval. The randomized short URLs generated by the Snowflake algorithm ensure uniqueness and reduce collision risks. The implementation also allows flexibility with dependency injection, accommodating various Redis configurations or alternative storage solutions.</p>
+
+<p>However, version 2 has some areas for improvement. Customization options for short URL length or format are lacking, limiting its adaptability to diverse requirements. Error handling and rate limiting mechanisms need to be enhanced for better robustness. Additionally, scaling concerns should be addressed, considering strategies for handling high volumes of concurrent requests, and introducing database persistence for data durability.</p>
+
+<p>Version 3 aims to address these improvements and introduces several new features. Users will have the ability to customize URLs and benefit from URL validation. MongoDB will serve as the primary database, with Redis acting as a cache to enhance performance. The UI/UX will undergo improvements to enhance user experience, and QR codes will be generated for short URLs. Redis will also be utilized as a rate limiter, ensuring fair usage and security. User accounts and authentication will be implemented, allowing personalized URL management and tracking statistics.</p>
+
+<p>Through version 3, the project strives to deliver a more feature-rich and reliable URL shortening service, catering to diverse user needs while prioritizing scalability, security, and user experience.</p>
+
+<p><a href="https://github.com/oliverXS/url-shortener" target="_blank">More details about this project.</a></p>
+
+<h5 id="some-diagrams-for-this-project">Some diagrams for this project</h5>
+
+<p><strong>Version1.</strong> <br /></p>
+<figure class="image">
+  <img src="/~xiaoruishen/assets/projects/tiny_url/one.png" alt="" style="width: 100%" />
+  <figcaption><b></b></figcaption>
+</figure>
+<p><strong>Version2.</strong> <br /></p>
+<figure class="image">
+  <img src="/~xiaoruishen/assets/projects/tiny_url/two.png" alt="" style="width: 100%" />
+  <figcaption><b></b></figcaption>
+</figure>
+<p><strong>Version3.</strong> <br /></p>
+<figure class="image">
+  <img src="/~xiaoruishen/assets/projects/tiny_url/three.png" alt="" style="width: 100%" />
+  <figcaption><b></b></figcaption>
+</figure>
+
+
+</div>
+
+    <div class="footer">
+      <div class="row">
+        <div class="three columns">
+            <span style="font-weight: normal">Xiaorui Shen</span>
+        </div>
+        <div class="six columns">
+            <span style="font-weight: normal">based on the template by <a href="http://web.media.mit.edu/~msaveski">Martin Saveski</a></span>
+        </div>
+        <div class="three columns">
+          <span onclick="window.open('https://www.linkedin.com/in/xiaorui-shen/')" style="cursor: pointer">
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+          </span>
+          <span onclick="window.open('https://github.com/oliverXS')" style="cursor: pointer">
+            <i class="fa fa-github" aria-hidden="true"></i>
+          </span>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+  <!-- Google Analytics -->
+  <!-- <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+
+</script> -->
+
+  <!-- do not remove -->
+  <span id="62cd7b7da1aff3196fdc26b60e396df9"></span>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

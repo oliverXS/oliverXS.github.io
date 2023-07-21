@@ -1,0 +1,27 @@
+experiences:
+
+- place: "Evolution Devices"
+  time: "2023/6 - 2023/9"
+  title: "Software Engineer Intern"
+  category: "work"
+
+- place: "Aeyesafe"
+  time: "2022/9 - 2022/12"
+  title: "Software Engineer Intern"
+  category: "work"
+
+- place: "Northeastern University"
+  time: "2021/9 - 2023/12"
+  title: "M.S. in Computer Science"
+  category: "school"
+
+- place: "Zbridge Intelligent Tech Co., Ltd."
+  time: "2021/4 - 2021/8"
+  title: "Software Engineer Intern"
+  category: "work"
+
+- place: "NUIST"
+  time: "2017 - 2021"
+  title: "B.E. in Computer Science"
+  subtitle: "First Class Honours"
+  category: "school"

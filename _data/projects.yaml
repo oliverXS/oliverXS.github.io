@@ -1,0 +1,36 @@
+projects:
+  - title: "SQL Database Performance Optimization"
+    subtitle: "Java Redis MySQL"
+    thumbnail: "assets/projects/sql_db_optimization/thumbnail.png"
+    url: "projects/sql_db_optimization.html"
+    selected: y
+
+  - title: "Tiny URL"
+    subtitle: "Java Redis MongoDB"
+    thumbnail: "assets/projects/tiny_url/thumbnail.png"
+    url: "projects/tiny_url.html"
+    selected: y
+
+  - title: "Real-time Data Monitoring Pipeline"
+    subtitle: "Python Kafka Elasticsearch Logstash Kibana"
+    thumbnail: "assets/projects/data-pipeline/thumbnail.png"
+    url: "projects/data-pipeline.html"
+    selected: y
+
+  - title: "E-commerce Search Module Design"
+    subtitle: "SystemDesign"
+    thumbnail: "assets/projects/es-search/thumbnail.png"
+    url: "projects/es-search.html"
+    selected: n
+
+  - title: "Distributed Cache Design"
+    subtitle: "SystemDesign"
+    thumbnail: "assets/projects/cache-design/thumbnail.png"
+    url: "projects/cache-design.html"
+    selected: n
+
+  - title: "Consistent Hashing Implementation"
+    subtitle: "Java"
+    thumbnail: "assets/projects/consistent-hashing/thumbnail.png"
+    url: "projects/consistent-hashing.html"
+    selected: n

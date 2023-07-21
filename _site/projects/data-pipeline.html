@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Xiaorui Shen | Real-time Data Monitoring Pipeline</title>
+  <meta name="description" content="Xiaorui Shen">
+  <meta name="author" content="Xiaorui Shen">
+  <meta property="og:title" content="Xiaorui Shen" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://www.martinsaveski.com" />
+  <meta property="og:site_name" content="Xiaorui Shen" />
+  <link rel="canonical" href="http://www.martinsaveski.com" />
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href=/~xiaoruishen/libs/external/skeleton/normalize.css>
+  <link rel="stylesheet" href=/~xiaoruishen/libs/external/skeleton/skeleton.css>
+  <link rel="stylesheet" href=/~xiaoruishen/libs/custom/my_css.css>
+
+  <!-- JQuery
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src=/~xiaoruishen/libs/external/jquery-3.1.1.min.js></script>
+
+  <!-- Font-Awesome
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href=/~xiaoruishen/libs/external/font-awesome-4.7.0/css/font-awesome.min.css>
+
+  <!-- Academicons
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href=/~xiaoruishen/libs/external/academicons-1.8.6/css/academicons.min.css>
+
+  <!-- Skeleton tabs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href=/~xiaoruishen/libs/external/skeleton_tabs/skeleton-tabs.css>
+  <script src=/~xiaoruishen/libs/external/skeleton_tabs/skeleton-tabs.js></script>
+
+  <!-- Timeline
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href=/~xiaoruishen/libs/external/timeline.css>
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!--<link rel="stylesheet" href=/~xiaoruishen/libs/external/github-prettify-theme.css>-->
+  <script src=/~xiaoruishen/libs/custom/my_js.js></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href=/~xiaoruishen/libs/icon.png>
+  <link rel="shortcut icon" type="image/png" href=/~xiaoruishen/libs/icon.png>
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+
+    <section class="header">
+      <div class="row">
+        <div class="three columns">
+          <a href="/~xiaoruishen/"><img class="u-max-full-width" src='/~xiaoruishen/assets/profile-pics/PIC.jpg'></a>
+        </div>
+        <div class="nine columns main-description">
+            <h1>Xiaorui Shen</h1>
+            <p>👨🏻‍💻 CS Master, graduating in Dec 2023 <br>🔍 Actively seeking entry-level SDE positions in the US </p>
+            <p>📧 oliver.app@yahoo.com</p>
+            <p>
+              <span onclick="window.open('https://www.linkedin.com/in/xiaorui-shen/')" style="cursor: pointer">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+              </span>
+
+              <span onclick="window.open('https://github.com/oliverXS')" style="cursor: pointer">
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </span>
+            </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href=/~xiaoruishen/index.html#bio>Bio</a></li>
+          <li class="navbar-item"><a class="navbar-link" href=/~xiaoruishen/index.html#projects>Projects</a></li>
+          <li class="navbar-item"><a class="navbar-link" href=/~xiaoruishen/index.html#resume>Vita</a></li>
+          <li class="navbar-item"><a class="navbar-link" href=/~xiaoruishen/index.html#publications>Publications</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="docs-section">
+
+  
+    <div class="title-subtitle">
+      <h3>Real-time Data Monitoring Pipeline</h3>
+      <h5>Python Kafka Elasticsearch Logstash Kibana</h5>
+    </div>
+  
+
+  <p>The Real-time Data Monitoring Pipeline project focuses on building an efficient data pipeline using Kafka, Elasticsearch, and Logstash. The pipeline enables seamless data ingestion into Elasticsearch through Kafka, creating a real-time data monitoring solution.</p>
+
+<p>Architecture:</p>
+
+<p>Data Generation: A Python script utilizes Faker to generate synthetic log data, providing a realistic representation of log events.</p>
+
+<p>Data Publishing: The Python script publishes the generated fake data to a designated Kafka topic, ensuring continuous data flow.</p>
+
+<p>Data Consumption: Logstash plays a pivotal role by consuming data from the Kafka topic, efficiently handling data ingestion at scale.</p>
+
+<p>Data Forwarding: Logstash then directs the consumed data to Elasticsearch, where it is stored for real-time analysis and visualization.</p>
+
+<p>Data Visualization: Kibana, a powerful data visualization tool, connects to Elasticsearch and facilitates interactive and intuitive data visualization, enabling users to monitor and analyze the data effectively.</p>
+
+<p>With this robust architecture, the project empowers users to create a reliable, real-time data monitoring pipeline. It offers a scalable solution for tracking and visualizing dynamic data streams, making it suitable for various applications, such as log analysis, performance monitoring, and system metrics visualization. By harnessing the power of Kafka, Elasticsearch, and Logstash, this project provides a comprehensive and efficient approach to real-time data monitoring and analysis.</p>
+
+<figure class="image">
+  <img src="/~xiaoruishen/assets/projects/data-pipeline/thumbnail.png" alt="" style="width: 100%" />
+  <figcaption><b></b></figcaption>
+</figure>
+
+<p><a href="https://github.com/oliverXS/kafka-elasticsearch-pipeline" target="_blank">More details about this project.</a></p>
+
+
+</div>
+
+    <div class="footer">
+      <div class="row">
+        <div class="three columns">
+            <span style="font-weight: normal">Xiaorui Shen</span>
+        </div>
+        <div class="six columns">
+            <span style="font-weight: normal">based on the template by <a href="http://web.media.mit.edu/~msaveski">Martin Saveski</a></span>
+        </div>
+        <div class="three columns">
+          <span onclick="window.open('https://www.linkedin.com/in/xiaorui-shen/')" style="cursor: pointer">
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+          </span>
+          <span onclick="window.open('https://github.com/oliverXS')" style="cursor: pointer">
+            <i class="fa fa-github" aria-hidden="true"></i>
+          </span>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+  <!-- Google Analytics -->
+  <!-- <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+
+</script> -->
+
+  <!-- do not remove -->
+  <span id="62cd7b7da1aff3196fdc26b60e396df9"></span>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

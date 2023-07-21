@@ -1,0 +1,7 @@
+papers:
+
+  - title: "A Hybrid Forecasting Model for the Velocity of Hybrid Robotic Fish Based on Back-Propagation Neural Network With Genetic Algorithm Optimization"
+    authors: "<b>Xiaorui Shen</b>, Yuxin Zheng, Runfeng Zhang"
+    venue: "IEEE Access, vol. 8, pp. 111731-111741, 2020, doi: 10.1109/ACCESS.2020.3002928."
+    paper_pdf: "https://ieeexplore.ieee.org/document/9119073"
+    selected: y
